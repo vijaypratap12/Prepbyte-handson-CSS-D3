@@ -1,0 +1,134 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+.upper-box {
+  border: 3px solid red;
+  color: rgb(136, 18, 38);
+  background-color: white;
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 8px 8px 0px rgb(134, 51, 65);
+  padding: 10px 0px;
+  text-shadow: 1px 1px red;
+}
+
+.second-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.box1 {
+  border: 6px solid red;
+  width: 200px;
+  height: 250px;
+  border-radius: 30px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 8px 8px 0px rgb(134, 51, 65);
+}
+.sbox1-1 {
+  font-size: 30px;
+  color: maroon;
+  text-shadow: 1px 1px maroon;
+}
+.sbox1-2 {
+  margin-right: 100px;
+  display: grid;
+  place-items: center;
+}
+
+.sbox2-1 {
+  font-size: 25px;
+  color: maroon;
+  text-shadow: 1px 1px maroon;
+  text-align: left;
+}
+
+.sbox2-2 {
+  margin-right: 100px;
+  text-shadow: 1px 1px maroon;
+}
+
+#btn {
+  border-radius: 20px;
+  background-color: brown;
+  padding: 5px 5px;
+}
+
+.offer-box {
+  border: 6px solid red;
+  position: fixed;
+  left: 30%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  width: 35%;
+  background-color: greenyellow;
+  box-shadow: 8px 8px 0px rgb(134, 51, 65);
+}
+
+.offers-box p {
+  float: right;
+}
+.lastbox {
+  border: 6px solid purple;
+  background-color: green;
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+}
+.lastbox p {
+  font-size: 20px;
+}
+
+.lastbox-heading {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.lastbox-upper {
+  border: 6px solid green;
+
+  display: flex;
+  justify-content: space-between;
+}
+.lastbox-upper h2 {
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.lastbox-upper1 {
+  margin-right: 10px;
+  border: 2px solid grey;
+  text-align: center;
+  background-color: rgb(189, 181, 79);
+}
+
+.lastbox-upper2 {
+  border: 2px solid grey;
+  text-align: center;
+  background-color: rgb(189, 181, 79);
+}
+
+.lastbox-lower {
+  border: 6px solid green;
+  background-color: rgb(189, 181, 79);
+}
+
+.lastbox-lower h2 {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.lastbox-lower p {
+  text-align: center;
+}
